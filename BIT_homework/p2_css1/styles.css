@@ -1,0 +1,29 @@
+body{
+background-color:lightcyan;
+}
+section{
+    border: 5px ridge darkcyan;
+    border-radius: 10px;
+}
+.external_heading{
+    background-image: linear-gradient(to right, burlywood, beige);
+}
+.external_paragraph{
+    background-image: linear-gradient(to right, burlywood, darkcyan, burlywood);
+    color: antiquewhite;
+}
+.external_lists{
+    background-image: linear-gradient(to right, aliceblue, beige);
+}
+div p{
+    color:darkkhaki;
+}
+div > p{
+    background-color: darkgoldenrod;
+}
+div + p{
+    background-color: brown;
+}
+div ~ p{
+    color: blanchedalmond;
+}
